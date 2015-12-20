@@ -2,55 +2,55 @@
 layout: post
 title: Markdown Style Guide
 ---
-
-This is a demo of all styled elements in Jekyll Now.
-
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
-
-This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
-
-## Header 2 (H1 is reserved for post titles)##
+## Header 2
 
 ### Header 3
 
 #### Header 4
 
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
+[Flit.Pro](http://flit.pro/ "Flit")
 
-An image, located within /images
+[Flit.Pro](http://flit.pro/)
 
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
+<http://flit.pro/>
 
-* A bulletted list
-- alternative syntax 1
-+ alternative syntax 2
-  - an indented list item
+![](http://nodejs-cloud.com/img/128px/nodejs.png)
 
-1. An
-2. ordered
-3. list
+![JS](http://nodejs-cloud.com/img/128px/nodejs.png)
 
-Inline markup styles:
+**Bold**
 
-- _italics_
-- **bold**
-- `code()`
+_Italic_
+
+`code`
 
 > Blockquote
+
 >> Nested Blockquote
 
-Syntax highlighting can be used with triple backticks, like so:
+* item1
+- item2
++ item3
+  - item31
+
+1. item1
+2. item2
+3. item3
 
 ```javascript
 /* Some pointless Javascript */
+// Coment
 var rawr = ["r", "a", "w", "r"];
+var sum = 2 + 1;
 ```
 
-Use two trailing spaces
-on the right
-to create linebreak tags
-
-Finally, horizontal lines
+{% highlight javascript %}
+/* Some pointless Javascript */
+// Coment
+var rawr = ["r", "a", "w", "r"];
+var sum = 2 + 1;
+{% endhighlight %}
 
 ----
+
 ****
