@@ -8,12 +8,10 @@
 # Site settings
 title: Victor Melnyk
 email: victor.melnyk.vm@gmail.com
-# this means to ignore newlines until "baseurl:"
-description: > Victor Melnyk blog
-# the subpath of your site, e.g. /blog
-baseurl: "/flit"
-# the base hostname & protocol for your site
-url: "http://flit.pro"
+description: > # this means to ignore newlines until "baseurl:"
+  Victor Melnyk blog
+baseurl: "/flit" # the subpath of your site, e.g. /blog
+url: "http://flit.pro" # the base hostname & protocol for your site
 twitter_username: ""
 github_username: victormelnyk
 
