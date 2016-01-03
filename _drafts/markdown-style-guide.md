@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Markdown Style Guide
+categories: blog
+tags: Ubuntu
 ---
 ## Header 2
 
